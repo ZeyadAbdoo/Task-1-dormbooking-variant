@@ -4,7 +4,9 @@ import cors from 'cors';
 import bookingRoutes from './routes/bookings.js';
 import userRoutes from './routes/users.js';
 
+
 const app = express();
+
 
 app.use(morgan('dev'));
 app.use(cors());
